@@ -10,8 +10,8 @@ for i in response["DBInstances"]:
     print(i["DBInstanceIdentifier"])
     print(i["DBInstanceStatus"])
     print("\n")
-    if (i["DBInstanceStatus"]=="available"):
-        dms.stop_db_instance(DBInstanceIdentifier=i["DBInstanceIdentifier"])
+    # if (i["DBInstanceStatus"]=="available"):
+    #     dms.stop_db_instance(DBInstanceIdentifier=i["DBInstanceIdentifier"])
 
 #for dbinst in response:
 #    print()
