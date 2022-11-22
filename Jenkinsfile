@@ -8,7 +8,7 @@ pipeline {
          stage('RDS Stopping Job') { 
             steps { 
                 script{
-                    sh '/bin/python3 ./main.py
+                    sh '/bin/python3 ./main.py'
                 }
             }
         }
