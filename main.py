@@ -1,6 +1,6 @@
 import boto3
 
-dms = boto3.client('rds')
+dms = boto3.client('rds', "us-east-1")
 
 response = dms.describe_db_instances()
 
